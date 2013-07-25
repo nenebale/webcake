@@ -1,0 +1,15 @@
+!!! 5
+
+%head
+  %meta{charset: "utf-8"}
+  %title Webcake Development & Design
+  %meta{name: "description", content: ""}
+  %meta{name: "viewport", content: "width=device-width, initial-scale=1"}
+  = stylesheet_link_tag "representation", media: "all", "data-turbolinks-track" => true
+
+%body
+  = yield
+  
+  = javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyDIPRhNZGe1xrq7keMFfqsNqHUgvsWsD7E&sensor=false", "data-turbolinks-track" => true
+  = javascript_include_tag "representation", "data-turbolinks-track" => true
+  

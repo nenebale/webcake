@@ -1,0 +1,31 @@
+@import "../globals/index";
+
+.page{
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.page-triangles{
+  &::after{
+    position: relative;
+    top: 33px;
+    display: block;
+    width: 100%;
+    height: 13px;
+    background: transparent asset-url("triangle/red.svg") repeat-x left top;
+    content: "";
+    z-index: 1;
+  }
+}
+
+.page-main{
+  @extend .page;
+  background-color: color("wc-red");
+  @extend .page-triangles;
+}
+
+.page-map{
+  @extend .page;
+  height: 80%;
+}

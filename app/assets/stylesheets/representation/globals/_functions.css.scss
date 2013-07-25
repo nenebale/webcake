@@ -1,0 +1,3 @@
+@function color($option){
+  @if $option == 'wc-red' { @return rgba(223, 80, 80, 1); }
+}

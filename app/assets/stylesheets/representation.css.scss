@@ -1,9 +1,11 @@
-// Place all the styles related to the representation controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-// Organized along the SMACSS guidelines: http://blog.55minutes.com/2013/01/smacss-and-rails/
+// Organized along the SMACSS guidelines with some modification: http://blog.55minutes.com/2013/01/smacss-and-rails/
 
 //= require vendor/normalize
-//= require representation/base
-//= require representation/layout
-//= require_tree ./representation/modules
+
+@import
+  "bourbon",
+  "representation/globals/index", 
+  "representation/base/index",
+  "representation/layout/index",
+  "representation/modules/logo",
+  "representation/modules/page";

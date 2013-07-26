@@ -1,1 +1,1 @@
-//= require representation/map.js
+// require representation/map.js

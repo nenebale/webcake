@@ -1,0 +1,10 @@
+.page-main{
+  @extend .page;
+  @include triangles("after");
+  background-color: color("wc.red");
+}
+
+.page-map{
+  @extend .page;
+  height: 80%;
+}

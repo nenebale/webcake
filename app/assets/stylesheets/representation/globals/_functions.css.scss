@@ -1,5 +1,8 @@
 @function color($option){
-  @if $option == 'wc-red' { @return rgba(223, 80, 80, 1); }
+  @if $option == 'wc.red' { @return rgba(223, 80, 80, 1); };
+  @if $option == 'grey.light' { @return rgba(240, 240, 240, 1); };
+}
+
 @mixin triangles($position){
   &::#{$position}{
     position: relative;

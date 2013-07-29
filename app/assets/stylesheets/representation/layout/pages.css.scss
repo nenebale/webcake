@@ -2,6 +2,16 @@
   @extend .page;
   @include triangles("after");
   background-color: color("wc.red");
+  padding: 80px 0;
+  @media (max-width: $bp-iphone){
+    padding: 30px 0;
+  }
+}
+
+.page__references{
+  @extend .page;
+  height: 500px;
+  background-color: rgba(0,0,0,.6);
 }
 
 .page__map{
@@ -14,6 +24,7 @@
   @include triangles("before");
   background-color: color("wc.red");
   margin-top: -40px;
+  padding: 30px 0;
 }
 
 @import "pages--contact";

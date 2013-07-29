@@ -1,4 +1,4 @@
 //= require jquery
-//= require representation/vendor/swipe
+//= require_tree ./representation/vendor
 //= require representation/map
 //= require representation/initializers

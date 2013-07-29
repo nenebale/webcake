@@ -48,3 +48,6 @@ gem 'unicorn'
 
 # Bourbon mixin collection
 gem 'bourbon'
+
+# Enables logging and static assets on Heroku
+gem 'rails_12factor'

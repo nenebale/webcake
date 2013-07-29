@@ -1,2 +1,7 @@
 de:
   wc_fullname: "Webcake Development & Design"
+  logo:
+    caption: "Development & Design"
+  contact:
+    always_available: "Wir sind 24/7 erreichbar."
+    email_us: "Schreib uns ein E-Mail:"

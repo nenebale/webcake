@@ -1,10 +1,19 @@
-.page-main{
+.page__main{
   @extend .page;
   @include triangles("after");
   background-color: color("wc.red");
 }
 
-.page-map{
+.page__map{
   @extend .page;
   height: 80%;
 }
+
+.page__contact{
+  @extend .page;
+  @include triangles("before");
+  background-color: color("wc.red");
+  margin-top: -40px;
+}
+
+@import "pages--contact";

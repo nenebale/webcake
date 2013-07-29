@@ -1,5 +1,36 @@
-.logo-main{
-  display: block;
+.logo{
+  position: relative;
   margin: 0 auto;
+}
+
+.logo__big{
+  @extend .logo;
   width: percentage(2/3);
+  max-width: 350px;
+}
+
+.logo__small{
+  @extend .logo;
+  width: percentage(1/3);
+  max-width: 200px;
+}
+
+.logo--graphic{  
+  width: 100%;
+}
+
+.logo--caption{
+  font-size: 1.1rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+@media (max-width: $bp-ipad){
+  .logo--caption{
+    font-size: 0.75rem;
+  }
 }

@@ -6,7 +6,7 @@ function initializeMap() {
     scrollwheel: false,
     disableDoubleClickZoom: true,
     keyboardShortcuts: false,
-    draggable: false,
+    draggable: !Modernizr.touch,
     styles:
     [
       {

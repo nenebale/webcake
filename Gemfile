@@ -12,6 +12,9 @@ end
 group :production do
   # Heroku relies on PG
   gem 'pg'
+  
+  # Enables logging and static assets on Heroku
+  gem 'rails_12factor'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -48,6 +51,3 @@ gem 'unicorn'
 
 # Bourbon mixin collection
 gem 'bourbon'
-
-# Enables logging and static assets on Heroku
-gem 'rails_12factor'

@@ -1,5 +1,12 @@
 .page{
+  position: relative;
   display: block;
-  padding: 20px 0;
+  padding: 25px 0;
   width: 100%;
+}
+
+@media (min-width: $bp-iphone){
+  .page{
+    padding: 60px 0;
+  }
 }

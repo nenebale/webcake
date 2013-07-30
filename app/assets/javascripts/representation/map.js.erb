@@ -3,7 +3,6 @@ function initializeMap() {
     center: new google.maps.LatLng(47.558, 7.592),
     zoom: 14,
     scrollwheel: false,
-    disableDoubleClickZoom: true,
     keyboardShortcuts: false,
     styles:
     [
@@ -66,6 +65,7 @@ function initializeMap() {
   if (Modernizr.touch){
     mapOptions["disableDefaultUI"] = true
     mapOptions["draggable"] = false
+    mapOptions["disableDoubleClickZoom"] = true
   } else{
     mapOptions["streetViewControl"] = false
     mapOptions["maxZoom"] = 16

@@ -76,23 +76,15 @@ function initializeMap() {
   });
   
   enquire.register("screen and (min-width: 321px)", {
-
-      // OPTIONAL
-      // If supplied, triggered when a media query matches.
-      match : function() {
-        map.set("zoom", 15);
-        map.set("center", new google.maps.LatLng(47.556, 7.59));
-      },      
-                                
-      // OPTIONAL
-      // If supplied, triggered when the media query transitions 
-      // *from a matched state to an unmatched state*.
-      unmatch : function() {
-        map.set("zoom", 14);
-        map.set("center", new google.maps.LatLng(47.558, 7.592));
-      }
+    match : function() {
+      map.set("zoom", 15);
+      map.set("center", new google.maps.LatLng(47.556, 7.59));
+    },      
+    unmatch : function() {
+      map.set("zoom", 14);
+      map.set("center", new google.maps.LatLng(47.558, 7.592));
+    }
   });
-  
-}
+};
 
 google.maps.event.addDomListener(window, 'load', initializeMap);

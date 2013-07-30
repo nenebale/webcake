@@ -2,11 +2,9 @@ function initializeMap() {
   var mapOptions = {
     center: new google.maps.LatLng(47.558, 7.592),
     zoom: 14,
-    disableDefaultUI: true,
     scrollwheel: false,
     disableDoubleClickZoom: true,
     keyboardShortcuts: false,
-    draggable: !Modernizr.touch,
     styles:
     [
       {
@@ -64,6 +62,18 @@ function initializeMap() {
       }
     ]
   };
+
+  if (Modernizr.touch){
+    mapOptions["disableDefaultUI"] = true
+    mapOptions["draggable"] = false
+  } else{
+    mapOptions["streetViewControl"] = false
+    mapOptions["maxZoom"] = 16
+    mapOptions["minZoom"] = 12
+    mapOptions["panControl"] = false
+    mapOptions["mapTypeControl"] = false
+  }
+
   var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
   var image = new google.maps.MarkerImage('<%= asset_path "pin.png" %>', new google.maps.Size(29, 40), new google.maps.Point(0,0), new google.maps.Point(15,33));
 

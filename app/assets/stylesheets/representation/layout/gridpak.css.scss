@@ -70,28 +70,28 @@
         /*
         Add your semantic classnames in alongside their corresponding spans here. e.g.
         
-        .span-3,
+        .grid-3,
         .my_semantic_class_name {
             ...
         }
         
         */
-        .span-1-bp1 {
+        .grid-1-bp1 {
             @include span(1, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-2-bp1 {
+        .grid-2-bp1 {
             @include span(2, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-3-bp1 {
+        .grid-3-bp1 {
             @include span(3, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-4-bp1 {
+        .grid-4-bp1 {
             @include span(4, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-5-bp1 {
+        .grid-5-bp1 {
             @include span(5, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-6-bp1 {
+        .grid-6-bp1 {
             @include span-first;
             width:100%;
         }
@@ -131,28 +131,28 @@
         }
         
         
-        .span-1-bp2 {
+        .grid-1-bp2 {
             @include span(1, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-2-bp2 {
+        .grid-2-bp2 {
             @include span(2, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-3-bp2 {
+        .grid-3-bp2 {
             @include span(3, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-4-bp2 {
+        .grid-4-bp2 {
             @include span(4, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-5-bp2 {
+        .grid-5-bp2 {
             @include span(5, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-6-bp2 {
+        .grid-6-bp2 {
             @include span(6, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-7-bp2 {
+        .grid-7-bp2 {
             @include span(7, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-8-bp2 {
+        .grid-8-bp2 {
             @include span-first;
             width:100%;
         }
@@ -196,40 +196,40 @@
         }
         
         
-        .span-1-bp3 {
+        .grid-1-bp3 {
             @include span(1, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-2-bp3 {
+        .grid-2-bp3 {
             @include span(2, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-3-bp3 {
+        .grid-3-bp3 {
             @include span(3, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-4-bp3 {
+        .grid-4-bp3 {
             @include span(4, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-5-bp3 {
+        .grid-5-bp3 {
             @include span(5, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-6-bp3 {
+        .grid-6-bp3 {
             @include span(6, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-7-bp3 {
+        .grid-7-bp3 {
             @include span(7, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-8-bp3 {
+        .grid-8-bp3 {
             @include span(8, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-9-bp3 {
+        .grid-9-bp3 {
             @include span(9, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-10-bp3 {
+        .grid-10-bp3 {
             @include span(10, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-11-bp3 {
+        .grid-11-bp3 {
             @include span(11, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-12-bp3 {
+        .grid-12-bp3 {
             @include span-first;
             width:100%;
         }
@@ -273,40 +273,40 @@
         }
         
         
-        .span-1-bp4 {
+        .grid-1-bp4 {
             @include span(1, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-2-bp4 {
+        .grid-2-bp4 {
             @include span(2, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-3-bp4 {
+        .grid-3-bp4 {
             @include span(3, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-4-bp4 {
+        .grid-4-bp4 {
             @include span(4, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-5-bp4 {
+        .grid-5-bp4 {
             @include span(5, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-6-bp4 {
+        .grid-6-bp4 {
             @include span(6, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-7-bp4 {
+        .grid-7-bp4 {
             @include span(7, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-8-bp4 {
+        .grid-8-bp4 {
             @include span(8, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-9-bp4 {
+        .grid-9-bp4 {
             @include span(9, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-10-bp4 {
+        .grid-10-bp4 {
             @include span(10, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-11-bp4 {
+        .grid-11-bp4 {
             @include span(11, $gutter_pc, $gutter_px, $padding, $max_columns);
         }
-        .span-12-bp4 {
+        .grid-12-bp4 {
             @include span-first;
             width:100%;
         }

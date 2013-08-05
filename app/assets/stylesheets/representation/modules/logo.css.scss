@@ -5,13 +5,13 @@
 
 .logo__big{
   @extend .logo;
-  @extend .span-4-bp1, .span-4-bp2, .span-5-bp3;
+  @extend .grid-4-bp1, .grid-4-bp2, .grid-5-bp3;
   max-width: 350px;
 }
 
 .logo__small{
   @extend .logo;
-  @extend .span-2-bp1, .span-3-bp2, .span-3-bp3;
+  @extend .grid-2-bp1, .grid-3-bp2, .grid-3-bp3;
   min-width: 150px;
   max-width: 200px;
 }

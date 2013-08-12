@@ -1,5 +1,9 @@
-.contact--logo{
-  margin-left: 5%;
+.page__contact{
+  @extend .page;
+  @include triangles("before");
+  background-color: color("wc.red");
+  margin-top: -40px;
+  padding: 30px 0;
 }
 
 .contact--info{

@@ -1,5 +1,5 @@
 @function color($option){
-  @if $option == 'wc.red' { @return rgba(223, 80, 80, 1); }
+  @if $option == 'wc.red' { @return rgba(232, 85, 78, 1); }
   @if $option == 'grey.light' { @return rgba(240, 240, 240, 1); };;
 }
 
@@ -10,7 +10,7 @@
     display: block;
     width: 100%;
     height: 13px;
-    background: transparent url(<%= asset_data_uri "triangle/red.svg" %>) repeat-x left top;
+    background: transparent image-url("triangle/red.svg") repeat-x left top;
     content: "";
     @if $position == "before" {
       top: -13px;

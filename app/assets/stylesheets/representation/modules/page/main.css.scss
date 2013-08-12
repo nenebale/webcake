@@ -1,0 +1,9 @@
+.page__main{
+  @extend .page;
+  @include triangles("after");
+  background-color: color("wc.red");
+  padding: 80px 0;
+  @media (max-width: $bp2){
+    padding: 30px 0;
+  }
+}
